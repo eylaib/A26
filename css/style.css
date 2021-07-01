@@ -1,0 +1,62 @@
+body {
+  background-color: #293241;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: "Nato Sans JP", sans-serif;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container .btn {
+  border: 1px solid #52b69a;
+  padding: 15px 45px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #52b69a;
+  font-weight: 700;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.container .btn:hover {
+  background-color: #52b69a;
+  color: #293241;
+}
+
+.container .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #76c893;
+  color: white;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 8px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.container .modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container .modal .close {
+  position: absolute;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
